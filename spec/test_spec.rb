@@ -1,5 +1,5 @@
-describe 'test runner' do
+describe 'running tests' do
 	it 'passes a test' do
-		true.should == false
+		true.eql?(true)
 	end
 end
